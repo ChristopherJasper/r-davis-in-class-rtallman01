@@ -25,3 +25,5 @@ as.character(surveys_long_feet$hindfoot_length)
 
 hist(as.character(surveys_long_feet$hindfoot_length ))
 # Error in histogram --> must be numeric. Histograms calculate a distribution from numeric values and we just turned ours into character values
+
+# Hey Rachelle, It seems like you ploted the x values as "characters." Doing so makes R not recognize the values as numbers and therefore they can't be plotted. Everything else worked great though. Good job! -Chris 
