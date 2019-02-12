@@ -17,6 +17,10 @@ surveys %>%
   filter(weight>30)%>%
   filter(weight<60) %>% head()
 
+weights_30to60<-surveys%>% 
+  filter(weight>30 & weight<60)%>%
+  head()
+
 # Make a tibble that shows the max (hint hint) weight for each species+sex combination, and name it biggest_critters. Use the arrange function to look at the biggest and smallest critters in the tibble (use ?, tab-complete, or Google if you need help with arrange).
 
 surveys %>%
